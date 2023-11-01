@@ -1,0 +1,36 @@
+{
+  "name": "@hlobka/usable-types",
+  "version": "1.0.0",
+  "description": "usable types that based in utility types",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "my:publish": "npm publish --access=public",
+    "pack": "npm pack",
+    "link": "npm link",
+    "test": "tsc",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hlobka/usable-types.git"
+  },
+  "keywords": [
+    "type",
+    "script",
+    "usable",
+    "utility",
+    "types"
+  ],
+  "author": "hlobka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hlobka/usable-types/issues"
+  },
+  "homepage": "https://github.com/hlobka/usable-types#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2"
+  }
+}
