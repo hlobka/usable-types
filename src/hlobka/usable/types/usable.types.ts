@@ -8,6 +8,9 @@ export type ReplaceKey<
 export type LowerFlags<Type> = {
     [Property in keyof Type as `${Lowercase<string & Property>}`]: Type[Property];
 };
+export type StringFlags<Type> = {
+    [Property in keyof Type]: string;
+};
 type OptionsFlags<Type> = {
     [Property in keyof Type]: boolean;
 };
